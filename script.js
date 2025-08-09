@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     try {
-      const apiKey = "615d7434ce4c5d837e4659195fc9124";
+      const apiKey = "api key";
       weatherResult.textContent = "Loading...";
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(location)}&units=metric&appid=${apiKey}`;
       const res = await fetch(url);
